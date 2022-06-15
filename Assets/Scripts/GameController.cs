@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameController : MonoBehaviour
 {
@@ -39,8 +40,8 @@ public class GameController : MonoBehaviour
 
     public bool playersTurn = true;
 
-    public Text turnText  = null;
-    public Text scoreText = null;
+    public TextMeshProUGUI turnText  = null;
+    public TextMeshProUGUI scoreText = null;
 
     public int playerScore = 0;
     public int playerKills = 0;
@@ -328,7 +329,7 @@ public class GameController : MonoBehaviour
         }
         else
         {
-            turnText.text = "Enemys Turn";
+            turnText.text = "Enemy's Turn";
         }
     }
 

@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-#if UNITY_EDITOR
-    using UnityEditor;
-#endif
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Runtime.InteropServices;
 
 public class MainMenu : MonoBehaviour
 {
+    [DllImport("__Internal")]
+    private static extern void closewindow();
     public void NewGame()
     {
         SceneManager.LoadScene(1);
@@ -15,10 +15,8 @@ public class MainMenu : MonoBehaviour
 
     public void Quit()
     {
-        #if UNITY_EDITOR
-            EditorApplication.isPlaying = false;
-        #else
-            Application.Quit();
-        #endif
+        Application.Quit();
+        closewindow();
+        Application.OpenURL("https://github.com/vicksonrodrigues/Demonspawn");
     }
 }

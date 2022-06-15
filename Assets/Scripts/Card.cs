@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Card : MonoBehaviour
 {
     public CardData cardData = null;
 
-    public Text titleText =null;
-    public Text descriptionText = null;
+    public TextMeshProUGUI titleText =null;
+    public TextMeshProUGUI descriptionText = null;
     public Image damageImage = null;
     public Image costImage = null;
     public Image cardImage = null;
