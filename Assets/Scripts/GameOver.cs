@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameOver : MonoBehaviour
 {
-    public Text scoreText =null;
-    public Text killsText =null;
+    public TextMeshProUGUI scoreText =null;
+    public TextMeshProUGUI killsText =null;
 
     private void Awake()
     {
