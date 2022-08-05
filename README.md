@@ -31,13 +31,19 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#installation">Installation</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#for-windows">For Windows</a></li>
+        <li><a href="#for-browser">For Browser</a></li>
       </ul>
     </li>
-    <li><a href="#license">License</a></li>
+    <li>
+      <a href="#gameplay">GamePlay</a>
+      <ul>
+        <li><a href="#game-elements">Game Elements</a></li>
+        <li><a href="#how-to-play">How To Play</a></li>
+      </ul>
+    </li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -47,29 +53,23 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<div align="center">
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="https://media.giphy.com/media/TmyvCHrt24erZlYVmQ/giphy.gif" width="640" height="360" />
 
-
+</div>
+<br/>
 ‘Demonspawn’ is a simple fun single player card battler where the Pawns of the Demon King must be vanquished by the player, who assumes the role of Merlin, utilising a variety of spells. The objective is simply to kill as many enemies as possible. This project aided in the learning of useful topics such as use Coroutines for timing,  sound effects, and use random numbers to make the game different each playthrough.
 
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
 [![Unity][Unity]][Unity-url]
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- GETTING STARTED -->
+<!-- Installation -->
 ## Installation
 
 
@@ -83,14 +83,26 @@ You can also play a WebGL version of game by clicking this link: https://vickson
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!--How To Play -->
+## GamePlay
 
-<!-- LICENSE -->
-## License
+### Game Elements
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+* <b>The play field</b>: Position Middle Top: On the left of the play field is the player’s character card, ‘Merlin’. On the right side of the playfield is the enemy ‘Demon’ card. 
+* <b>The mana meter</b>: Positioned on either side of the playfield. On the left for the player and on the right for the enemy are the mana meters. These fill up with a mana gem eachturn and dictate the number and the strength of the cards that can be played. (They fill up by +1 each turn. Turn one = 1 mana, Turn two = 2 mana etc.) 
+* <b>The hand area</b>: Positioned below the playfield is the hand area.  This runs the full width of the screen and is divided into two clear sections. The left half is for the player’s attack cards the right side for the opponents. 
+* <b>Decks</b>: Below each of the mana meters are the decks of the player and the enemy. 
+* <b>Turn Counter</b>: At the top of the screen the turn counter prints out whose turn is taking place. 
+* <b>Death Counter</b>: At the top left of the screen the death counter displays the number of enemies killed and gives a player score.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### How To Play
 
+* <b>Objective</b>: Kill as many demons as possible.
+* Each player receives three cards from his deck. 
+* The player's cards are face up, while the enemy's are face down.
+* Keeping mana point in mind , choose a card to attack enemy or heal ‘Merlin’ by dragging the card to character card.
+* Player can choose to skip turn to collect more mana point for heavy attack.
+* Player can also 'burn card' to draw new card from deck
 
 
 <!-- CONTACT -->
@@ -108,6 +120,7 @@ Project Link: [https://github.com/vicksonrodrigues/Demonspawn](https://github.co
 ## Acknowledgments
 
 * [GameCI](https://game.ci/)
+* [XAMK Open University - INTRODUCTION TO VIDEO GAMES CREATION ](https://cambridge-academy-of-gaming-and-innovation.teachable.com/p/introduction-to-video-games-creation)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -116,7 +129,7 @@ Project Link: [https://github.com/vicksonrodrigues/Demonspawn](https://github.co
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: images/screenshot.png
+[product-gif]: <img src="https://media.giphy.com/media/TmyvCHrt24erZlYVmQ/giphy.gif" />
 [Unity]: https://img.shields.io/badge/unity-v2021.3.0f1-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white
 [Unity-url]: https://unity.com/
 
