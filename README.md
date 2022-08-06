@@ -129,7 +129,6 @@ Project Link: [https://github.com/vicksonrodrigues/Demonspawn](https://github.co
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-gif]: <img src="https://media.giphy.com/media/TmyvCHrt24erZlYVmQ/giphy.gif" />
 [Unity]: https://img.shields.io/badge/unity-v2021.3.0f1-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white
 [Unity-url]: https://unity.com/
 
